@@ -1,0 +1,17 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Tue Nov  1 17:21:37 2022
+# Process ID: 5228
+# Current directory: C:/Users/sco/Desktop/ass2-3
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent14968 C:\Users\sco\Desktop\ass2-3\ass2-3.xpr
+# Log file: C:/Users/sco/Desktop/ass2-3/vivado.log
+# Journal file: C:/Users/sco/Desktop/ass2-3\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/sco/Desktop/ass2-3/ass2-3.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+source a2t3_sim.tcl
+close_sim
