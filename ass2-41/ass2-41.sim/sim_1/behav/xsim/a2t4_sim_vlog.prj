@@ -1,0 +1,13 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../ass2-41.srcs/sources_1/new/a2t4_dc.v" \
+"../../../../ass2-41.srcs/sources_1/new/a2t4_mux.v" \
+"../../../../ass2-41.srcs/sources_1/new/d74139.v" \
+"../../../../ass2-41.srcs/sources_1/new/mux16to1.v" \
+"../../../../ass2-41.srcs/sim_1/new/a2t4_sim.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
