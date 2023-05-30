@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Webtalk v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Tue Nov  1 22:28:31 2022
+# Process ID: 12196
+# Current directory: C:/Users/sco/Desktop/ass2-1/ass2-1.sim/sim_1/behav/xsim
+# Command line: wbtcv.exe -mode batch -source C:/Users/sco/Desktop/ass2-1/ass2-1.sim/sim_1/behav/xsim/xsim.dir/a2t1_sim_behav/webtalk/xsim_webtalk.tcl -notrace
+# Log file: C:/Users/sco/Desktop/ass2-1/ass2-1.sim/sim_1/behav/xsim/webtalk.log
+# Journal file: C:/Users/sco/Desktop/ass2-1/ass2-1.sim/sim_1/behav/xsim\webtalk.jou
+#-----------------------------------------------------------
+source C:/Users/sco/Desktop/ass2-1/ass2-1.sim/sim_1/behav/xsim/xsim.dir/a2t1_sim_behav/webtalk/xsim_webtalk.tcl -notrace
+webtalk_transmit: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 59.594 ; gain = 1.117
+INFO: [Common 17-206] Exiting Webtalk at Tue Nov  1 22:28:37 2022...
