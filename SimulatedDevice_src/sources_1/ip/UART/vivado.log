@@ -1,0 +1,31 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Wed Nov 30 17:41:35 2022
+# Process ID: 16000
+# Current directory: C:/Users/sco/Desktop/SimulatedDevice_src/sources_1/ip/UART
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent15304 C:\Users\sco\Desktop\SimulatedDevice_src\sources_1\ip\UART\UART.dcp
+# Log file: C:/Users/sco/Desktop/SimulatedDevice_src/sources_1/ip/UART/vivado.log
+# Journal file: C:/Users/sco/Desktop/SimulatedDevice_src/sources_1/ip/UART\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_checkpoint {C:\Users\sco\Desktop\SimulatedDevice_src\sources_1\ip\UART\UART.dcp}
+Command: open_checkpoint {C:\Users\sco\Desktop\SimulatedDevice_src\sources_1\ip\UART\UART.dcp}
+
+Starting open_checkpoint Task
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.132 . Memory (MB): peak = 699.121 ; gain = 0.000
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2017.4/data/ip'.
+INFO: [Project 1-479] Netlist was created with Vivado 2017.4
+INFO: [Device 21-403] Loading part xc7a35tcsg324-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Project 1-604] Checkpoint was created with Vivado v2017.4 (64-bit) build 2086221
+open_checkpoint: Time (s): cpu = 00:00:54 ; elapsed = 00:00:38 . Memory (MB): peak = 1118.082 ; gain = 418.961
+exit
+INFO: [Common 17-206] Exiting Vivado at Wed Nov 30 17:43:39 2022...
