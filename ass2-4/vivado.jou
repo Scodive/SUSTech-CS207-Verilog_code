@@ -1,0 +1,23 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Tue Nov  1 15:46:41 2022
+# Process ID: 3220
+# Current directory: C:/Users/sco/Desktop/ass2-4
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent13916 C:\Users\sco\Desktop\ass2-4\ass2-4.xpr
+# Log file: C:/Users/sco/Desktop/ass2-4/vivado.log
+# Journal file: C:/Users/sco/Desktop/ass2-4\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/sco/Desktop/ass2-4/ass2-4.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top a2t4_dc [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+launch_simulation

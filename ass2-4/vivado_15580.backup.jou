@@ -1,0 +1,30 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Tue Nov  1 13:38:09 2022
+# Process ID: 15580
+# Current directory: C:/Users/sco/Desktop/ass2-4
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent11060 C:\Users\sco\Desktop\ass2-4\ass2-4.xpr
+# Log file: C:/Users/sco/Desktop/ass2-4/vivado.log
+# Journal file: C:/Users/sco/Desktop/ass2-4\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/sco/Desktop/ass2-4/ass2-4.xpr
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open C:/Users/sco/Desktop/ass2-4/ass2-4.srcs/sim_1/new/a2t4_sim.v w ]
+add_files -fileset sim_1 C:/Users/sco/Desktop/ass2-4/ass2-4.srcs/sim_1/new/a2t4_sim.v
+update_compile_order -fileset sim_1
+launch_simulation
+source decoder_mux_sim.tcl
+close_sim
+launch_simulation
+source decoder_mux_sim.tcl
+update_compile_order -fileset sim_1
+reset_simulation -simset sim_1 -mode behavioral
+launch_simulation
+launch_simulation
+reset_simulation -simset sim_1 -mode behavioral
+relaunch_sim
