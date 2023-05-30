@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Webtalk v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Sun Oct  2 18:56:00 2022
+# Process ID: 9660
+# Current directory: C:/Users/sco/Desktop/DeMorgan2bit/DeMorgan2bit.sim/sim_1/behav/xsim
+# Command line: wbtcv.exe -mode batch -source C:/Users/sco/Desktop/DeMorgan2bit/DeMorgan2bit.sim/sim_1/behav/xsim/xsim.dir/DeMorgan2bit_sim_behav/webtalk/xsim_webtalk.tcl -notrace
+# Log file: C:/Users/sco/Desktop/DeMorgan2bit/DeMorgan2bit.sim/sim_1/behav/xsim/webtalk.log
+# Journal file: C:/Users/sco/Desktop/DeMorgan2bit/DeMorgan2bit.sim/sim_1/behav/xsim\webtalk.jou
+#-----------------------------------------------------------
+source C:/Users/sco/Desktop/DeMorgan2bit/DeMorgan2bit.sim/sim_1/behav/xsim/xsim.dir/DeMorgan2bit_sim_behav/webtalk/xsim_webtalk.tcl -notrace
+webtalk_transmit: Time (s): cpu = 00:00:00 ; elapsed = 00:00:09 . Memory (MB): peak = 59.473 ; gain = 0.234
+INFO: [Common 17-206] Exiting Webtalk at Sun Oct  2 18:56:10 2022...
