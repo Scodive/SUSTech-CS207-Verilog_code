@@ -1,0 +1,9 @@
+Vivado Simulator 2017.4
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2017.4/bin/unwrapped/win64.o/xelab.exe -wto cc2697ddec0a40398a6d5c70d0a0cf42 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot encoder_tb_behav xil_defaultlib.encoder_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-278] actual bit length 1 differs from formal bit length 2 for port Y [C:/Users/sco/Desktop/lab6/lab6.srcs/sim_1/new/encoder_tb.v:26]
+ERROR: [VRFC 10-529] concurrent assignment to a non-net sX is not permitted [C:/Users/sco/Desktop/lab6/lab6.srcs/sim_1/new/encoder_tb.v:26]
+ERROR: [VRFC 10-29] encoder expects 6 arguments [C:/Users/sco/Desktop/lab6/lab6.srcs/sim_1/new/encoder_tb.v:26]
+ERROR: [XSIM 43-3322] Static elaboration of top level Verilog design unit(s) in library work failed.
